@@ -1,6 +1,6 @@
 ---
 - hosts: linuxservers
-  become: yes
+  become: true
 
   tasks:
     - name: Download files
